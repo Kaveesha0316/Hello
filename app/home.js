@@ -90,9 +90,9 @@ export default function home() {
       }
     }
     fetchData();
-    const intervalId = setInterval(() => {
-      fetchData();
-    }, 2000);
+    // const intervalId = setInterval(() => {
+    //   fetchData();
+    // }, 2000);
   }, [getsearchtext]);
 
   useEffect(() => {
@@ -117,9 +117,9 @@ export default function home() {
       }
     }
     fetchPostdata();
-    const intervalId = setInterval(() => {
-      fetchPostdata();
-    }, 2000);
+    // const intervalId = setInterval(() => {
+    //   fetchPostdata();
+    // }, 2000);
   }, []);
 
   const imgpath =
@@ -665,7 +665,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     position: "absolute",
     top: 38,
-    right: 250,
+    right: 275,
   },
   msgcount: {
     width: 25,
@@ -673,7 +673,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#25D366",
     borderRadius: 15,
     position: "absolute",
-    left: 255,
+    left: 275,
     top: 25,
     justifyContent: "center",
   },
