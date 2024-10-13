@@ -1,6 +1,6 @@
 # Hello Chat
 
-Welcome to **Hello Chat**, a modern and user-friendly chat application. This app is designed to provide users with a seamless messaging experience, allowing them to sign in, chat, share posts, and update profiles easily. Built using **React.js** for the frontend and **Java** with **Hibernate** for the backend, it ensures robust performance and scalability. Data is managed through **MySQL** and the application is hosted on a **GlassFish** server.
+Welcome to **Hello Chat**, a modern and user-friendly chat application. This app is designed to provide users with a seamless messaging experience, allowing them to sign in, chat, share posts, and update profiles easily. Built using **React.js** and **React-native expo** for the frontend and **Java** with **Hibernate** for the backend, it ensures robust performance and scalability. Data is managed through **MySQL** and the application is hosted on a **GlassFish** server.
 
 ![Hello Chat Features](https://github.com/Kaveesha0316/Hello/blob/main/assets/banner.png)
 
@@ -28,7 +28,7 @@ Welcome to **Hello Chat**, a modern and user-friendly chat application. This app
 
 ### Frontend:
 - **React.js**: A powerful JavaScript library for building dynamic user interfaces.
-- **React Native**: Used to ensure a mobile-responsive design for enhanced user experience.
+- **React Native expo**: Used to ensure a mobile-responsive design for enhanced user experience.
 
 ### Backend:
 - **Java**: The backend is built using Java for managing the business logic, including authentication and chat functionalities.
